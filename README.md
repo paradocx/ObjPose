@@ -10,7 +10,7 @@ DenseFusion
 3. [代码调试和解析细节](https://blog.csdn.net/weixin_43013761/article/details/103053585)
 
 ### 安装：
-1. anaconda+pytorch 建议配置顺序
+anaconda+pytorch 建议配置顺序
  * 从anaconda配置python3.5为主体的环境开始 后面的操作都在torch环境下进行 <br>
  * 还需要install numpy scipy pyyaml cffi pyyaml matplotlib Cython Pillow <br>
  * pytorch的安装`不建议直接使用官网的指令`，请去查阅[历史版本](https://pytorch.org/get-started/previous-versions/)
