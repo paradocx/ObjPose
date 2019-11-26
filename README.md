@@ -1,7 +1,7 @@
 DenseFusion
 ========
 
-CVPR2019 DenseFusion 6D Object Pose Estimation by Iterative Dense Fusion (Feifei Li)
+(CVPR2019) DenseFusion 6D Object Pose Estimation by Iterative Dense Fusion
 --------
 
 ### 准备：
@@ -10,7 +10,7 @@ CVPR2019 DenseFusion 6D Object Pose Estimation by Iterative Dense Fusion (Feifei
 3. [代码调试和解析细节](https://blog.csdn.net/weixin_43013761/article/details/103053585)
 
 ### 安装：
-anaconda+pytorch <br>
+anaconda+pytorch， （建议按照作者二的配置，从python3.5开始） 后面的操作都在torch环境下进行 <br>
 根据作者二，还需要install numpy scipy pyyaml cffi pyyaml matplotlib Cython Pillow
 
 ### 数据源：
@@ -20,4 +20,4 @@ anaconda+pytorch <br>
 
 ### 调试细节：
 1.由于LineMOD下载更快，先行尝试训练。解压对应文件夹放置到对应位置（参见作者一的代码，且二不具有对应目录）。 <br>
- （1） 提示CV2的错误，安装 `opencv` 。 <br>
+ （1） 提示CV2的错误，安装 `opencv` （Notice：处理摄像头输入视频需要with-ffmpeg）。 <br>
