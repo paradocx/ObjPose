@@ -16,10 +16,10 @@ anaconda+pytorch 建议配置顺序
  * pytorch的安装 `不建议直接使用官网的指令` ，请去查阅[历史版本](https://pytorch.org/get-started/previous-versions/),尤其需要注意CUDA的版本
 
 ### 数据源：
-* YCB（约200+G）可选择[百度网盘](https://github.com/yuxng/PoseCNN/issues/81)等途径,原地址（原项目Readme）采用google站点需要翻墙 <br>
-* LineMOD（约8.4G）直接原地址翻墙下载即可 <br>
+* YCB（约200+G）可选择[百度网盘](https://github.com/yuxng/PoseCNN/issues/81)等途径,原地址采用google站点需要翻墙 <br>
+* LineMOD（约8.4G） 可直接原地址翻墙下载即可 <br>
 * 
 
 ### 调试细节：
-* 由于LineMOD下载更快，先行尝试训练。解压对应文件夹放置到对应位置（参见作者一的代码，且二不具有对应目录）。 <br>
- 1.  提示CV2的错误，安装 `opencv` （Notice：处理摄像头输入视频需要with-ffmpeg）。 <br>
+* 由于LineMOD下载更快，先行尝试训练。解压对应文件夹放置到对应位置（参见作者一的代码）。 <br>
+   1. 提示CV2的错误，安装 `opencv` （Notice：处理摄像头输入视频需要with-ffmpeg）。 <br>
