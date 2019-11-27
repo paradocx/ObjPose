@@ -19,7 +19,8 @@ anaconda+pytorch 建议配置顺序
 ### 数据源：
 * YCB（约200+G）可选择[百度网盘](https://github.com/yuxng/PoseCNN/issues/81)等途径,原地址采用google站点需要翻墙 <br>
 * LineMOD（约8.4G） 可直接原地址翻墙下载即可 <br>
-* Trained_checkpoints（约200+M） 原地址显示404 Not Found 联系其他人得到的数据 
+* Trained_checkpoints（约200+M） 原地址显示404 Not Found 联系其他人得到的数据  <br>
+按照download.sh的指令细节解压并放置对应文件夹
 
 ### 调试细节：
 * 由于LineMOD下载更快，先行尝试训练。解压对应文件夹放置到对应位置（参见作者一的代码）。 <br>
