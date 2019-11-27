@@ -25,4 +25,9 @@ anaconda+pytorch 建议配置顺序
 ### 调试细节：
 * 由于LineMOD下载更快，先行尝试训练。解压对应文件夹放置到对应位置（参见作者一的代码）。 <br>
    1. 提示CV2的错误，安装 `opencv` （Notice：处理摄像头输入视频需要with-ffmpeg）。 <br>
-   2. 在运行训练之前，需要在experiments/logs目录下新建linemod文件夹，否则会中途报错。
+   2. 在运行训练之前，需要在experiments/logs目录和trained_models目录和experiments/eval_result下新建linemod文件夹，否则会中途报错。 <br>
+   3. 训练以后进行模型测试，确认Trained_checkpoints已解压和放置对应目录，源码拷贝tools/eval_linemod.py拷贝到新作者对应的目录下。 <br>
+   4. 由于版本更替，函数返回结果数目于一致，修改datasets/linemod/dataset.py 218行如下：
+       ~~_, contours, _ = cv2.findContours(mask, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)~~
+       contours, _ = cv2.findContours(mask, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+
