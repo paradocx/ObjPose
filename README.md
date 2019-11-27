@@ -14,7 +14,7 @@ anaconda+pytorch 建议配置顺序
  * 从anaconda配置python3.5为主体的环境开始 后面的操作都在torch环境下进行 <br>
  * 还需要install numpy scipy pyyaml cffi pyyaml matplotlib Cython Pillow <br>
  * pytorch的安装 `不建议直接使用官网的指令` ，请去查阅[历史版本](https://pytorch.org/get-started/previous-versions/) <br>
-   尤其需要注意CUDA的版本 一定要是10.1
+   尤其需要注意CUDA的版本 一定要是10.1; Torch版本1.0; TorchVision版本0.2.2
 
 ### 数据源：
 * YCB（约200+G）可选择[百度网盘](https://github.com/yuxng/PoseCNN/issues/81)等途径,原地址采用google站点需要翻墙 <br>
