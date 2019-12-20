@@ -33,4 +33,4 @@ anaconda+pytorch 建议配置顺序
 
 * YCB调试细节。 <br>
    1. 数据准备。 Data文件夹里直接解压，将0038和0039的分开部分合并；Data_syn文件夹合并解压。 <br>
-   2. eval代码有两份。eval_ycb需要注意YCB_Video_Tool工具和替换；inference_ycb要注意对应.py文件中所有的指定路径（例如检索home或者aass等关键字），此外需要注意在Line129行左右检索classes_id需要自行在dataset_config文件下根据"classes"准备"classesid"文件。 <br>
+   2. eval代码有两份。eval_ycb需要注意YCB_Video_Tool工具和替换；inference_ycb要注意对应.py文件中所有的指定路径（例如检索home或者aass等关键字），此外需要注意在Line129行左右检索classes_id需要自行在dataset_config文件下根据"classes"准备"classesid"文件。 Line146开始有大量的路径需要替换。<br>
