@@ -32,5 +32,5 @@ anaconda+pytorch 建议配置顺序
        contours, _ = cv2.findContours(mask, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)  <br>
 
 * YCB调试细节。 <br>
-   1.数据准备。 Data文件夹里直接解压，将0038和0039的分开部分合并；Data_syn文件夹合并解压。 <br>
-   2.eval代码有两份。eval_ycb需要注意YCB_Video_Tool工具；inference_ycb可直接运行。 <br>
+   1. 数据准备。 Data文件夹里直接解压，将0038和0039的分开部分合并；Data_syn文件夹合并解压。 <br>
+   2. eval代码有两份。eval_ycb需要注意YCB_Video_Tool工具；inference_ycb可直接运行。 <br>
