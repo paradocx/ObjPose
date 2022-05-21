@@ -1,6 +1,5 @@
-DenseFusion
+ObjPose(Based on DenseFusion)
 ========
-
 (CVPR2019) DenseFusion 6D Object Pose Estimation by Iterative Dense Fusion
 --------
 
